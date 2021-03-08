@@ -6,3 +6,13 @@ node_modules/
 public/
 .deploy*/
 .ssh/
+node_modules/
+tmp/
+*.log
+.idea/
+yarn.lock
+package-lock.json
+.nyc_output/
+coverage/
+.tmp*
+public/
