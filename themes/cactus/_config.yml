@@ -17,6 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -53,7 +54,7 @@ archive:
 # Options:
 #   - show_updated: show the last modification date.
 post:
-  show_updated: false
+  show_updated: true
 
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
@@ -103,7 +104,7 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-highlight: rainbow
+highlight: darkula
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
@@ -135,8 +136,8 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: kaaaxcreatorsblog
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
