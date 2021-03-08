@@ -114,3 +114,20 @@ admin:
   username: kaaax0815
   password_hash: $2a$10$5oLeQTwxPaJcVep0jrllFee3M1g/6Zgwcj8DFoRISLcqrGN47.i76
   secret: F3k2k9RLaVzLR5F44DRJ3HzK
+  
+robotstxt:
+  useragent: "*"
+  disallow:
+    - /search
+    - /tags
+    - /lib
+    - /js
+    - /images
+    - /css
+    - /categories
+    - search.xml
+  allow:
+    - /one_file_to_allow.html
+    - /2nd_file_to_allow.html
+    - /3rd_file_to_allow.html
+  sitemap: /sitemap.xml

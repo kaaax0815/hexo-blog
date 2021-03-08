@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://link.kaaaxcreators.de/landing
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -79,7 +79,7 @@ logo:
   width: 50
   height: 50
   url: /images/logo.png
-  gravatar: true
+  gravatar: false
   grayout: true
 
 # Customize the favicons.
@@ -94,13 +94,13 @@ logo:
 favicon:
   desktop:
     url: /images/favicon.ico
-    gravatar: true
+    gravatar: false
   android:
     url: /images/favicon-192x192.png
-    gravatar: true
+    gravatar: false
   apple:
     url: /images/apple-touch-icon.png
-    gravatar: true
+    gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
@@ -164,5 +164,5 @@ umami_analytics:
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
 gravatar:
-  email: bernd@kaaaxcreators.de
-  hash: af9cfb508cd521e2dbb6e1d98e4e11b3
+  email: 
+  hash: 

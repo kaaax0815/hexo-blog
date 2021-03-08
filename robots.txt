@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /tags
+Disallow: /search
+Disallow: /lib
+Disallow: /js
+Disallow: /images
+Disallow: /css
+Disallow: /categories
+Disallow: search.xml
