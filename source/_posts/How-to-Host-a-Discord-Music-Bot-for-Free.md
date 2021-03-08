@@ -20,14 +20,14 @@ Create Account on [repl.it](https://repl.it/signup)
 
 The easiest way is to use a Social Media Login. Github, Google or Facebook. I will use Google
 {% asset_img msedge_uaeH0Qkayy.png Repl.it Installation %}
-Press Enter for the First one the keep the current one or edit it as you like
+Press Enter on the first one to keep the current one or edit it as you like
 Press "yes" if the email address is the one you want to use
-The other things dont matter. Select what I use or whatever you want
+The other things don't matter. Select what I use or whatever you want
 
 ## 2. Create Discord Bot
 
-You will need a TOKEN from Discord to Setup the Bot
-Goto [Discord Developer Portal](https://discord.com/developers/applications/)
+You will need a TOKEN from Discord to set up the Bot
+Go to the [Discord Developer Portal](https://discord.com/developers/applications/)
 Click in the Right Corner on "New Application"
 {% asset_img msedge_pvgz9b6miE.png Discord Application %}
 Now Enter a Name for the Bot
@@ -71,14 +71,14 @@ In my Case it is:
 TOKEN="ODE4NTI1MDU5NDU0MzM3MDY1.YEZU3Q.GQ4YO-ai9IXrOqkQLrUG0A2iOPA"
 PREFIX="="
 ```
-Now you simpy press:
+Now you simply press:
 {% asset_img msedge_2PyzEy6e6N.png Run %}
 
 This might take a while for the first time, because it needs to download and install many packages
 
 When it is done you should see "[API] Logged in as `your bot name`"
 
-If not type in the Console `npm i`. If this doesnt fix it, leave a Comment or write me on any Social Media
+If not type in the Console `npm i`. If this doesn't fix it, leave a Comment or write me on any Social Media
 
 ## 4. Add Bot to Server
 I assume that you have a Discord Server
@@ -97,7 +97,7 @@ Go into the Discord Server and type `yourprefix`help
 Now you will see all commands and how to use theme
 To play a song join a Voice Channel and type `yourprefix`play `search request`
 Example: =play rick astly never gonna
-If you dont want to hear anymore simply type `yourprefix`leave and your bot will leave the Voice Channel
+If you don't want to hear any more, simply type `yourprefix`leave and your bot will leave the Voice Channel
 
 ## 5. Personalize
 Open Folder "events" and open File "ready.js"
@@ -121,7 +121,7 @@ To keep the awake we will use something called cronjobs. It will simulate a Pers
 For this we will create an account on [cron-job.org](https://cron-job.org/en/signup/)
 Enter the Fields, Only Password and Email matters.
 If you want to use a Temp-Mail you can use my [Temp-Mail Service](https://emailfake.com/kaaaxcreators.tk)
-Activate your Account through the URL in the Mail you recieved
+Activate your Account through the URL in the Mail you received
 Now Press [log in](https://cron-job.org/en/members/)
 Enter Email and Password from the Registration
 Click on "[Cronjobs](https://cron-job.org/en/members/jobs/)" and click on "Create cronjob" on the right
@@ -135,7 +135,7 @@ Now every 15 Minutes your Repl receives a request and stays awake
 ## Optional: Change Avatar
 
 If you want a different Avatar then the default
-Goto [Discord Developer Portal](https://discord.com/developers/applications)
+Go to the [Discord Developer Portal](https://discord.com/developers/applications)
 Click on your Bot
 Click on "Bot" on the right
 Under "Icon" click the Image, now you can choose from any Image on your PC
@@ -144,4 +144,4 @@ Now my Bot has a different avatar
 
 ## Extra: SoundCloud
 Coming Soon
-Doesnt work because SoundCloud doesnt accept new Applications
+Doesn't currently work because SoundCloud doesn't accept new Applications
