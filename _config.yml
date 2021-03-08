@@ -101,19 +101,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/kaaax0815/hexo-blog # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: main
-
-# hexo-admin authentification
-admin:
-  username: kaaax0815
-  password_hash: $2a$10$5oLeQTwxPaJcVep0jrllFee3M1g/6Zgwcj8DFoRISLcqrGN47.i76
-  secret: F3k2k9RLaVzLR5F44DRJ3HzK
   
 robotstxt:
   useragent: "*"
@@ -122,12 +109,17 @@ robotstxt:
     - /tags
     - /lib
     - /js
-    - /images
     - /css
     - /categories
     - search.xml
+    - /*.png$
   allow:
-    - /one_file_to_allow.html
-    - /2nd_file_to_allow.html
-    - /3rd_file_to_allow.html
+    - /
+    - /images
   sitemap: /sitemap.xml
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tags: false
+  categories: false
