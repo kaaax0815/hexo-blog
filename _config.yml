@@ -105,7 +105,6 @@ deploy:
   type: git
   repo: https://github.com/kaaax0815/hexo-blog # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: main
-  message: Deploy from Hexo
 
 # hexo-admin authentification
 admin:
