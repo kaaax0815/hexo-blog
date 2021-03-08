@@ -112,7 +112,7 @@ robotstxt:
     - /css
     - /categories
     - search.xml
-    - /*.png$
+    - /2021/*.png$
   allow:
     - /
     - /images
