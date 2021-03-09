@@ -111,12 +111,12 @@ robotstxt:
     - /js
     - /css
     - /categories
-    - search.xml
+    - /search.xml
     - /2021/*.png$
   allow:
     - /
     - /images
-  sitemap: /sitemap.xml
+  sitemap: https://blog.kaaaxcreators.de/sitemap.xml
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
