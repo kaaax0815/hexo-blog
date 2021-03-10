@@ -41,7 +41,7 @@ To get the TOKEN click on "Click to Reveal Token"
 {% asset_img msedge_LTbfXYDwE9.png.webp Discord Token %}
 Click on "Copy" and write it down somewhere safe. Alternatively you could leave to Tab open. You'll need it for later
 
-### IMPORTANT! This is the Token where if somebody has it can control your bot completely. So dont share it!
+### IMPORTANT! This is the Token where if somebody has it can control your bot completely. So dont share it
 
 ## 3. Configure Music Bot
 
@@ -62,15 +62,19 @@ Create a file
 Now type `.env`
 
 Copy and Insert the Following Code
+
 ```ini
 TOKEN="<yourtoken>"
 PREFIX="<yourprefix>"
 ```
+
 In my Case it is:
+
 ```ini
 TOKEN="ODE4NTI1MDU5NDU0MzM3MDY1.YEZU3Q.GQ4YO-ai9IXrOqkQLrUG0A2iOPA"
 PREFIX="="
 ```
+
 Now you simply press:
 {% asset_img msedge_2PyzEy6e6N.png.webp Run %}
 
@@ -81,11 +85,12 @@ When it is done you should see "[API] Logged in as `your bot name`"
 If not type in the Console `npm i`. If this doesn't fix it, leave a Comment or write me on any Social Media
 
 ## 4. Add Bot to Server
+
 I assume that you have a Discord Server
 Copy the URL and insert it into a new TAB. Replace %CLIENTID% with your Bot ID from earlier
-https://discord.com/oauth2/authorize?client_id=%CLIENTID%&scope=bot&permissions=2146954879
+<https://discord.com/oauth2/authorize?client_id=%CLIENTID%&scope=bot&permissions=2146954879>
 In my case it is:
-https://discord.com/oauth2/authorize?client_id=818525059454337065&scope=bot&permissions=2146954879
+<https://discord.com/oauth2/authorize?client_id=818525059454337065&scope=bot&permissions=2146954879>
 
 {% asset_img msedge_Tb1SryfxxT.png.webp Add Bot to Server %}
 
@@ -100,19 +105,25 @@ Example: =play rick astly never gonna
 If you don't want to hear any more, simply type `yourprefix`leave and your bot will leave the Voice Channel
 
 ## 5. Personalize
+
 Open Folder "events" and open File "ready.js"
 Replace:
+
 ```javascript
 await client.user.setActivity("kaaaxcreators.de | §help", {
 ```
+
 With:
+
 ```javascript
 await client.user.setActivity("%YOUR PRESENCE%", {
 ```
+
 Replace %YOUR PRESENCE% with what you want under your bot to show
 {% asset_img Discord_x5KbKxdDuP.png.webp Discord Presence %}
 
 ## 6. Stay Online 24/7
+
 On the right you'll see something like this
 {% asset_img msedge_lKfca36uNK.png.webp Repl Online %}
 Copy the URL you'll need it for later
@@ -143,5 +154,6 @@ Now my Bot has a different avatar
 {% asset_img Discord_8nk1hvE1cN.png.webp New Avatar %}
 
 ## Extra: SoundCloud
+
 Coming Soon
 Doesn't currently work because SoundCloud doesn't accept new Applications
