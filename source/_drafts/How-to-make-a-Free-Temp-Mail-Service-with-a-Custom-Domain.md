@@ -7,3 +7,4 @@ tags:
 categories: 
 - Tutorials
 ---
+emailfake.com with freenom custom domain

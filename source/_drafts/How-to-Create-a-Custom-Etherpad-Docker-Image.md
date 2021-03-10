@@ -6,3 +6,4 @@ tags:
 categories: 
 - Tutorials
 ---
+Etherpad image refernce from my etherpad instance show cool extensions

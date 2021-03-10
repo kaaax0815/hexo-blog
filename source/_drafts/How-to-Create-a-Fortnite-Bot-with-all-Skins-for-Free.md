@@ -7,3 +7,4 @@ tags:
 categories: 
 - Tutorials
 ---
+When Fornite Update done, check if bot still works then update, host with repl

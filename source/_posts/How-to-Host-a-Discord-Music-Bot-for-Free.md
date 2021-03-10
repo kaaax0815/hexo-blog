@@ -9,7 +9,6 @@ tags:
 categories: 
 - Tutorials
 ---
-[comment]: <> (Make "PRO Section", where you can change Bot Image and stay online)
 
 Today, I'll show you how to Host a Discord Music Bot for Free. Its 100% Free, requires minimal coding experience and doesn't take long.
 
