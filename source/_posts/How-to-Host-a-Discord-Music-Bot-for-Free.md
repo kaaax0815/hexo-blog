@@ -46,7 +46,7 @@ Click on "Copy" and write it down somewhere safe. Alternatively you could leave 
 ## 3. Configure Music Bot
 
 The best Music Bot which you can easily host is [SudhanPlayz/Discord-MusicBot](https://github.com/SudhanPlayz/Discord-MusicBot)
-![](ezgif-4-9ee9b32578c2.webp)
+{% asset_img ezgif-4-9ee9b32578c2.webp Repl.it Repl %}
 
 If you want a [Youtube Video](https://link.kaaaxcreators.de/9jo8Ha) by the Author himself you can watch it [here](https://link.kaaaxcreators.de/9jo8Ha)
 I will use a modified version, better for 24/7 and without ads
