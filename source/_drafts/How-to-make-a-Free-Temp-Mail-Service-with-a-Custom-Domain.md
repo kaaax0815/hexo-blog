@@ -50,7 +50,7 @@ Mine would be `https://emailfake.com/bloginator.tk`
 
 If you see
 {% asset_img msedge_mR8JPcGtf5.png Address is not valid %}
-wait for a couply minutes or hours and enter the your URL again
+wait for a couple minutes or hours and enter the your URL again
 
 After a few minutes there is "Address is valid (uptime 96 days)"
 
