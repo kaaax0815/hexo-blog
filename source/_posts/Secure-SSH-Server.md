@@ -1,12 +1,14 @@
 ---
 title: 4 Ways to Secure your Server
 tags:
-- SSH
-- Server
-- Security
-categories: 
-- Tutorials
+  - SSH
+  - Server
+  - Security
+categories:
+  - Tutorials
+date: 2021-03-12 15:45:53
 ---
+
 Requirements:
 
 1. Texteditor e.g. nano

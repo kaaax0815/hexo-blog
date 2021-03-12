@@ -1,12 +1,14 @@
 ---
 title: How to make a Free Temp Mail Service with a Custom Domain
 tags:
-- Mail
-- Custom Domain
-- Free
-categories: 
-- Tutorials
+  - Mail
+  - Custom Domain
+  - Free
+categories:
+  - Tutorials
+date: 2021-03-12 15:45:27
 ---
+
 
 ## 1. Create Free Domain
 
