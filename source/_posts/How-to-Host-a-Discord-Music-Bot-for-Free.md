@@ -167,3 +167,7 @@ Click on "Bot" on the right
 Under "Icon" click the Image, now you can choose from any Image on your PC
 Now my Bot has a different avatar
 {% asset_img Discord_8nk1hvE1cN.png.webp New Avatar %}
+
+## Extra
+
+A Step by Step guided Website is available [here](discordbot.kaaaxcreators.de/)
