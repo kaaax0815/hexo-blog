@@ -43,20 +43,6 @@ Click on "Copy" and write it down somewhere safe. Alternatively you could leave 
 
 ### IMPORTANT! This is the Token where if somebody has it can control your bot completely. So dont share it
 
-## 3. Create Spotify Application
-
-You need a Client ID and Secret from Spotify do play Spotify Songs and Playlists
-Go to the [Spotify Developers Dashboard](https://developer.spotify.com/dashboard/applications)
-Click on the Button "CREATE AN APP"
-App name and App description can be anything. You just have to check both boxes and click "CREATE"
-Now you see something like this
-{% asset_img msedge_lTjO1nAwn9.png.webp Spotify App %}
-Copy the Client ID and write it down somewhere. You'll need it for later
-Click "SHOW CLIENT SECRET"
-Copy the Client Secret and write it down somewhere. You'll need it for later
-
-### IMPORTANT! This is the Token where if somebody has it can pretend to be you. So dont share it
-
 ## 4. Configure Music Bot
 
 The best Music Bot which you can easily host is [kaaaxcreators/Discord-MusicBot](https://github.com/kaaaxcreators/Discord-MusicBot)
@@ -78,21 +64,15 @@ Copy and Insert the Following Code
 {
     "TOKEN": "<yourtoken>",
     "PREFIX": "<yourprefix>",
-    "SOUNDCLOUD_CLIENT_ID": "2t9loNQH90kzJcsFCODdigxfp325aq4z",
-    "PRESENCE": "<presence_text>",
-    "SPOTIFY_CLIENT_ID": "<spotify_client_id>",
-    "SPOTIFY_CLIENT_SECRET": "<spotify_client_secret>"
+    "PRESENCE": "<presence_text>"
 }
 ```
 
 `TOKEN` is the Discord Bot Token from Step 2
 `Prefix` must always be put before the command. If Prefix is `=` then you get help with `=help`
-`SOUNDCLOUD_CLIENT_ID` is a SoundCloud Client ID (just leave it)
 `PRESENCE` is the text underneath your bot name
 {% asset_img Discord_x5KbKxdDuP.png.webp Discord Presence}
 `kaaaxcreators.de` would be the Presence
-`SPOTIFY_CLIENT_ID` is the Client ID from Step 3
-`SPOTIFY_CLIENT_SECRET` is the Client Secret from Step 3
 
 In my Case it is:
 
@@ -100,10 +80,7 @@ In my Case it is:
 {
     "TOKEN": "ODQzODY4NjE1Nzc3NTgzMTQ0.YKKH5A.k_duMzMPHaWeLHNKy4AMISWHbvk",
     "PREFIX": "=",
-    "SOUNDCLOUD_CLIENT_ID": "2t9loNQH90kzJcsFCODdigxfp325aq4z",
-    "PRESENCE": "kaaaxcreators.de",
-    "SPOTIFY_CLIENT_ID": "e4d9c891c4aa40e387a9643998b394c9",
-    "SPOTIFY_CLIENT_SECRET": "86bf17ea4daa40649fe024d60a80e15d"
+    "PRESENCE": "kaaaxcreators.de"
 }
 ```
 
